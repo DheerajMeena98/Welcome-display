@@ -1,0 +1,51 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e293b;
+}
+
+.welcome-heading {
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 32px;
+  color: #f0bb03;
+}
+
+.welcome-greetings {
+  font-family: 'Bree Serif';
+  color: '#ffffff';
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.subscribe-button {
+  background-color: '#ffffff';
+  width: 115px;
+  height: 39px;
+  color: #1e293b;
+  border-radius: 15px;
+  border: 0px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-container {
+    height: 100vh;
+  }
+
+  .welcome-heading {
+    font-size: 48px;
+  }
+
+  .welcome-greetings {
+    font-size: 36px;
+  }
+
+  .subscribe-button {
+    width: 140px;
+    height: 45px;
+  }
+}
