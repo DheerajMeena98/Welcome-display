@@ -1,4 +1,4 @@
-In this project, let's build a **Welcome App** by applying the concepts we have learned till now.
+In this project, let's build a **Welcome App*.
 
 ### Refer to the image below:
 
